@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #7a001f;
+        color: #fff;
+    }
+
+  
+    .wrapper {
+        width: 1000px;
+        margin: auto;
+        background: #7a001f;
+    }
+
+    
+    .header {
+        display: flex;
+        align-items: center;
+        background: #a0002a;
+    }
+
+    .header img {
+        height: 124px;
+        display: block;
+    }
+
+  
+    .menu {
+        background: orange;
+        padding: 10px;
+    }
+
+    .menu a {
+        color: #fff;
+        margin-right: 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .menu a:hover {
+        text-decoration: underline;
+    }
+
+   
+    .container {
+        display: flex;
+    }
+
+  
+    .sidebar {
+        width: 220px;
+        background: #8b0025;
+        padding: 10px;
+    }
+
+    .sidebar img {
+        width: 100%;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    
+    .search-box, .login-box {
+        margin-top: 20px;
+        padding: 10px;
+        border-top: 1px solid #a0002a;
+    }
+
+    input {
+        width: 90%;
+        margin: 5px 0;
+        padding: 6px;
+        border: none;
+    }
+
+    button {
+        background: #4a0012;
+        border: 1px solid #fff;
+        padding: 6px 15px;
+        color: #fff;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background: orange;
+    }
+
+    
+    .content {
+        flex: 1;
+        padding: 20px 40px;
+    }
+
+    .content h2.title {
+        font-size: 28px;
+        margin-bottom: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .intro-text {
+        line-height: 1.8;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .intro-text p {
+        margin-bottom: 15px;
+    }
+
+  
+    .img-right {
+        float: right;
+        margin: 0 0 15px 20px;
+        width: 320px; 
+        border: 1px solid #fff;
+    }
+
+    
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    
+    .footer {
+        background: #a0002a;
+        text-align: center;
+        padding: 15px;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+	#TD:hover{
+		content: url("./Images/trang_diem_over.gif")
+	}
+	#DD:hover{
+		content: url(./"Images/duong_da.gif")
+	}
+	#NH:hover{
+		content: url(./"Images/nuoc_hoa_over.gif")
+	}
+	#DT:hover{
+		content: url(./"Images/duong_toc_over.gif")
+	}
+	#DTHE:hover{
+		content: url(./"Images/duong_the_over.gif")
+	}
+	#NG:hover{
+		content: url(./"Images/nam_gioi_over.gif")
+	}
+</style>
+<body>
+	<body>
+    <div class="wrapper">
+
+    <div class="header">
+        <img src="Images/logo.jpg" alt="Logo">
+        <img src="Images/my_pham.gif" alt="My Pham">
+        <img src="Images/banner.gif" alt="Banner" style="flex-grow: 1;">
+    </div>
+
+    <div class="menu">
+        <a href="./untitled.html">TRANG CHỦ</a>
+        <a href="./untitled2.html">GIỚI THIỆU</a>
+        <a href="./untitled1.html">SẢN PHẨM</a>
+        <a href="#">HỎI ĐÁP</a>
+        <a href="#">TƯ VẤN</a>
+        <a href="#">GIỎ HÀNG</a>
+        <a href="#">LIÊN HỆ</a>
+    </div>
+
+    <div class="container">
+
+        <div class="sidebar">
+            <img id="TD" src="Images/trang_diem.gif" alt=""/>
+            <img id="DD" src="Images/duong_da.gif">
+            <img id="NH" src="Images/nuoc_hoa.gif">
+            <img id="DT" src="Images/duong_toc.gif">
+            <img id="DTHE" src="Images/duong_the.gif">
+            <img id="NG" src="Images/nam_gioi.gif">
+            <div style="margin-top: 20px;">
+                <img src="Images/tuongtrung.jpg" alt="Người mẫu">
+            </div>
+
+            <div class="search-box">
+                <input type="text" placeholder="Tìm kiếm">
+                <button>Tìm kiếm</button>
+            </div>
+
+            <div class="login-box">
+                <p style="margin: 0 0 5px 0;">Đăng nhập</p>
+                <input type="text" placeholder="Tên đăng nhập">
+                <input type="password" placeholder="Mật khẩu">
+                <button>Đăng nhập</button>
+            </div>
+        </div>
+
+        <div class="content clearfix">
+            <h2 class="title">GIỚI THIỆU</h2>
+            
+            <div class="intro-text">
+                <p>Hãng mỹ phẩm <strong>Coréana</strong> được thành lập ngày <strong>15/11/1988</strong>. Là hãng mỹ phẩm cao cấp đứng đầu trong các hãng mỹ phẩm lớn của Hàn Quốc có uy tín lớn và nổi tiếng nhất Hàn Quốc. Không chỉ dừng lại ở Hàn Quốc mà mỹ phẩm <strong>Coréana</strong> đã lan rộng sang thị trường thế giới, xuất khẩu và có chỗ đứng vững vàng ở nhiều nước: Mỹ, Nhật, Trung Quốc, Singapore, Malaixia, Inđonexia, Brazin, Tây Ban Nha...</p>
+
+                <img src="Images/gioithieu.jpg" class="img-right">
+
+                <p>Mỹ phẩm <strong>Coréana</strong> vào Việt Nam tháng 10/1995 - trụ sở chính tại địa chỉ 152 Thái Hà - Đống Đa - Hà Nội. Trong 6 năm liền hãng liên tục mở rộng thị trường và cho đến nay tại Hà Nội có 8 Shop.</p>
+
+                <p>Những năm 60 và 70 việc chăm sóc da, việc sử dụng một bộ dưỡng da (<strong>Skincare</strong>) chưa được hình thành, kể cả ở các nước Châu Âu: Anh - Pháp - Đức là những chiếc nôi về mỹ phẩm. Khi đó muốn dưỡng da người ta thường chỉ nghĩ đến việc sử dụng kem dưỡng. Bước sang thập kỷ 80 và đặc biệt là thập kỷ 90 việc các hãng đưa vào sản xuất các bộ dưỡng da đã được phát triển rầm rộ. Đặc biệt sự phân cách giữa mỹ phẩm Châu Á và Châu Âu đã được hình thành rõ nét.</p>
+
+                <p>Do khí hậu và thời tiết của Châu Á là ôn đới và cận nhiệt đới, trong khi đó khí hậu của Châu Âu là hàn đới, cộng với sự kết hợp về sự khác biệt chủng tộc nên các hãng mỹ phẩm đã nghiên cứu và sản xuất ra những sản phẩm dưỡng da để phù hợp với từng vùng.</p>
+
+                <p>Có thể nói nếu đã là mỹ phẩm dưỡng da cao cấp - nổi tiếng thì có thể phù hợp với mọi loại da.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <img src="Images/vien_01.gif" alt="Decoration">
+        <span>Trang web được xây dựng bởi T3H Corp. 2007 ©</span>
+        <img src="Images/vien_02.gif" alt="Decoration">
+    </div>
+
+</div>
+</body>
+</html>

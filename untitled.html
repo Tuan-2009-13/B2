@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #7a001f;
+    color: #fff;
+}
+
+
+.wrapper {
+    width: 1000px;
+    margin: auto;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    background: #a0002a;
+}
+
+.header img {
+    height: 124px;
+    display: block;
+}
+
+
+.menu {
+    background: orange;
+    padding: 10px;
+}
+
+.menu a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.container {
+    display: flex;
+}
+
+
+.sidebar {
+    width: 220px;
+    background: #8b0025;
+    padding: 10px;
+}
+
+.sidebar img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+input {
+    width: 100%;
+    margin: 5px 0;
+    padding: 6px;
+}
+
+button {
+    background: orange;
+    border: none;
+    padding: 6px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+
+  .footer {
+        background: #a0002a;
+        text-align: center;
+        padding: 15px;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+	#TD:hover{
+		content: url("./Images/trang_diem_over.gif")
+	}
+	#DD:hover{
+		content: url(./"Images/duong_da.gif")
+	}
+	#NH:hover{
+		content: url(./"Images/nuoc_hoa_over.gif")
+	}
+	#DT:hover{
+		content: url(./"Images/duong_toc_over.gif")
+	}
+	#DTHE:hover{
+		content: url(./"Images/duong_the_over.gif")
+	}
+	#NG:hover{
+		content: url(./"Images/nam_gioi_over.gif")
+	}
+</style>
+<body>
+<div class="wrapper">
+
+    
+    <div class="header">
+		<img src="Images/logo.jpg">
+		<img src="Images/my_pham.gif">
+        <img src="Images/banner.gif">
+    </div>
+
+    
+    <div class="menu">
+        <a href="./untitled.html">TRANG CHỦ</a>
+        <a href="./untitled2.html">GIỚI THIỆU</a>
+        <a href="./untitled1.html">SẢN PHẨM</a>
+        <a href="#">HỎI ĐÁP</a>
+        <a href="#">TƯ VẤN</a>
+        <a href="#">GIỎ HÀNG</a>
+        <a href="#">LIÊN HỆ</a>
+    </div>
+
+    
+    <div class="container">
+
+        
+        <div class="sidebar">
+            <img id="TD" src="Images/trang_diem.gif" alt=""/>
+            <img id="DD" src="Images/duong_da.gif" alt="">
+            <img id="NH" src="Images/nuoc_hoa.gif">
+            <img id="DT" src="Images/duong_toc.gif">
+            <img id="DTHE" src="Images/duong_the.gif">
+            <img id="NG" src="Images/nam_gioi.gif">
+
+            <img src="Images/tuongtrung.jpg">
+
+            
+            <div class="search-box">
+                <input type="text" placeholder="Tìm kiếm">
+                <button>Tìm kiếm</button>
+            </div>
+
+           
+            <div class="login-box">
+                <p>Đăng nhập</p>
+                <input type="text" placeholder="Tên đăng nhập">
+                <input type="password" placeholder="Mật khẩu">
+                <button>Đăng nhập</button>
+            </div>
+        </div>
+
+    </div>
+
+   
+    <div class="footer">
+		<img src="Images/vien_01.gif">
+        Trang web được xây dựng bởi T3H Corp. 2007 ©
+		<img src="Images/vien_02.gif">
+    </div>
+
+</div>
+</body>
+</html>
